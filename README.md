@@ -1,15 +1,3 @@
-**2020 Update**
-I am restarting the project so watch this space
+Derived from https://github.com/bluerhinos/phpMQTT
 
-
-Blue Rhinos Consulting
-Andrew Milsted | andrew@bluerhinos.co.uk | http://www.bluerhinos.co.uk | @bluerhinos
-
-A simple php class to connect/publish/subscribe to an MQTT broker
-
-Documentation: Coming Soon
-Source: http://github.com/bluerhinos/phpMQTT
-
-To install via Composer
------------------------
-`composer require bluerhinos/phpmqtt=@dev`
+TLS and PHP8 patch applied to fix "PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated..".
